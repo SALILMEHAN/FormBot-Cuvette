@@ -1,0 +1,163 @@
+.container {
+  background-color: #1a1a1a;
+  width: 100%;
+  min-height: 100vh;
+  /* overflow-y: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 25.78px;
+  font-weight: 600;
+  padding: 40px 20px;
+  transition-duration: 0.4s;
+}
+
+.statsGrid {
+  display: grid;
+  width: 90%;
+  max-width: 600px;
+  grid-template-columns: repeat(2, 6em);
+  gap: 126px;
+  margin: 50px 0;
+  justify-content: center;
+  text-align: left;
+}
+
+.statsCard {
+  padding: 2px;
+  height: 3em;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.statsLabel1,
+.statsLabel2 {
+  font-size: 14px;
+  padding: 13px 0px 13px 18px;
+  border-radius: 8px;
+}
+
+.statsLabel2 {
+  margin-bottom: 8px;
+}
+
+.statsValue {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tableContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.table {
+  border-radius: 8px;
+  width: 100%;
+  border-collapse: separate;
+  font-size: 15.78px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.table th {
+  background-color: #1a1a1a;
+  color: #a0a0a0;
+  text-align: left;
+  padding: 13px;
+  font-weight: normal;
+  position: sticky;
+  top: 0;
+}
+
+.table td {
+  padding: 13px;
+  min-width: 110px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #404040;
+}
+
+.noResponseMessage {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.table tbody tr:hover {
+  background-color: #7a7777;
+}
+
+.chartsGrid {
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.chartCard {
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.pieChartContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.pieChartCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.pieChartLabel {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.pieChartValue {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statsLabe3 {
+  background-color: rgb(100, 94, 94);
+  color: white;
+  font-size: 18px;
+  width: 25%;
+  font-weight: 500;
+  padding: 13px 12px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .chartsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    padding: 12px;
+  }
+}

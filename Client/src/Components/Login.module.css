@@ -1,0 +1,183 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.backArrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.serMessage {
+  margin-left: 3%;
+  margin-top: 2%;
+  font-family: Poppins;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(236, 103, 103);
+  position: absolute;
+}
+
+.loginForm {
+  background: transparent;
+  padding: 40px;
+  border-radius: 10px;
+  width: 375px;
+  text-align: center;
+  margin-left: 3%;
+  margin-top: 6em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  text-align: left;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.emaildiv {
+  margin-bottom: 8px;
+  height: 3.8em;
+}
+
+.passworddiv {
+  margin-bottom: 10px;
+  height: 3.8em;
+}
+
+.emailinput,
+.passwordinput {
+  width: 25em;
+  padding: 12px;
+  float: left;
+  border: 1px solid #333;
+  border-radius: 12px;
+  font-size: 14px;
+  background-color: #121212;
+  color: white;
+  outline: none;
+  margin-bottom: 3px;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.emailerr,
+.passworderr {
+  color: red;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.input::placeholder {
+  color: rgba(99, 99, 100, 1);
+}
+
+.primaryButton {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 25em;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.or {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  margin: 12px;
+}
+
+.googleButton {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  cursor: not-allowed;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 23.8em;
+  gap: 45px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+
+.googleIcon {
+  width: 28px;
+  height: 28px;
+  margin-left: 10%;
+}
+
+.register {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.register a {
+  color: #3366ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leftDesign,
+.rightDesign,
+.bottomDesign {
+  position: absolute;
+}
+
+.leftDesign {
+  left: 2%;
+  width: 20%;
+  top: 12em;
+}
+
+.rightDesign {
+  left: 94%;
+  width: 6%;
+  bottom: 58%;
+  height: auto;
+}
+
+.bottomDesign {
+  left: 65%;
+  width: 13%;
+  bottom: -1%;
+  height: auto;
+}

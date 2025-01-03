@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #e0e0e0;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

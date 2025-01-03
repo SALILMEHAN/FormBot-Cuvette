@@ -1,0 +1,111 @@
+.main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181818;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 2em;
+  font-family: Open Sans;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+
+.form {
+  width: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.inputGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  position: absolute;
+  margin-top: 23em;
+  margin-left: 0.7em;
+  font-family: Open Sans;
+  font-size: 0.7em;
+  color: rgb(236, 67, 67);
+}
+
+.icon {
+  position: absolute;
+  left: 18px;
+  color: #888;
+  font-size: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.7rem;
+  padding-left: 2.8rem;
+  border: 2px solid rgba(208, 208, 208, 1);
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(169, 167, 167);
+  outline: none;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.eyeButton {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  font-size: large;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.eyeButton:hover {
+  color: #fff;
+}
+
+.updateButton {
+  margin-top: 1.2em;
+  width: 100%;
+  padding: 0.75rem 3.2em;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: Open Sans;
+}
+
+.updateButton:hover {
+  color: #0056b3;
+  background-color: #fff;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 88%;
+  right: 88%;
+  background: none;
+  border: none;
+  color: rgba(207, 54, 54, 1);
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  color: white;
+}

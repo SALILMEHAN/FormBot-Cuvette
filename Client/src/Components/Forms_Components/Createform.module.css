@@ -1,0 +1,311 @@
+.home {
+  display: flex;
+  height: 100vh;
+  background-color: rgba(31, 31, 35, 1);
+  color: #fff;
+  font-family: Open Sans;
+  transition-duration: 0.4s;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: 1px solid #333;
+  position: fixed;
+  top: 0;
+  width: 97.5%;
+  z-index: 1000;
+  height: 60px;
+  transition-duration: 0.4s;
+}
+
+.formNameInput {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 6px 9px;
+  color: #fff;
+  outline: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.formNameInput::placeholder {
+  color: #aaa;
+}
+
+.navmidbtns {
+  display: flex;
+  gap: 0.8em;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.midbtn1 {
+  color: rgba(126, 166, 255, 1);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid rgba(126, 166, 255, 1);
+  padding: 0.5em 1em;
+}
+
+.midbtn1:hover {
+  color: rgba(61, 121, 252);
+  border: 2px solid rgb(61, 121, 252);
+}
+
+.midbtn2 {
+  color: rgba(126, 166, 255, 1);
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+}
+
+.midbtn2:hover {
+  padding: 0.4em 0.9em;
+  border: 2px solid rgb(61, 121, 252);
+}
+
+.LBtoggel {
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  border: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.LDbtn {
+  width: 4.2em;
+  height: 1.9em;
+  border-radius: 20px;
+  background-color: rgba(26, 95, 255, 1);
+  display: flex;
+  align-items: center;
+}
+
+.LDmode {
+  width: 10em;
+  height: 2em;
+  margin-left: 68%;
+  position: absolute;
+  gap: 0.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.endbtn {
+  position: absolute;
+  width: 12em;
+  display: flex;
+  gap: 0.7em;
+  margin-left: 82%;
+}
+
+.actionButton,
+.actionButton1 {
+  background-color: rgba(74, 222, 128, 0.8);
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background-color: rgba(14, 210, 86, 0.8);
+}
+
+.actionButton1 {
+  background-color: rgba(26, 95, 255, 1);
+}
+.actionButton1:hover {
+  background-color: rgb(4, 74, 236);
+}
+
+.closeButton {
+  background-color: transparent;
+  color: red;
+  font-size: larger;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #ff7777;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-top: 60px;
+  overflow-y: auto;
+  padding: 20px;
+  flex-grow: 1;
+  transition-duration: 0.4s;
+}
+
+.sidebar {
+  width: 320px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 55px 15px;
+  position: fixed;
+  top: 5.5em;
+  left: 1em;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.FontAwesomeIcon {
+  color: #8cff00;
+}
+
+.sidebar h3 {
+  margin-bottom: 8px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bubbleButton {
+  margin-bottom: 72px;
+}
+
+.bubbleButton,
+.inputButton {
+  padding: 10px 30px 10px 20px;
+  margin-left: 1em;
+  width: 10em;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  text-align: left;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bubbleButton:hover,
+.inputButton:hover {
+  box-shadow: 0px 0px 5px rgb(94, 92, 89);
+}
+
+.formArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.startBubble {
+  padding: 15px 20px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inputBlock {
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  gap: 10px;
+}
+
+.inputHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.heading {
+  min-width: 10em;
+}
+
+.deleteButton {
+  position: relative;
+  background: none;
+  padding: 0.3em 0.5em;
+  border-radius: 100px;
+  background-color: #444444;
+  border: none;
+  color: #f82b60;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -2.5em;
+  margin-left: 9.1em;
+}
+
+.deleteButton:hover {
+  color: #ff8888;
+}
+
+.inputField {
+  padding: 10px;
+  border: 2px solid #444;
+  border-radius: 5px;
+  outline: none;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.inputField:focus {
+  border-color: #ffa500;
+}
+
+.requiredText {
+  font-family: Open Sans;
+  font-size: 9px;
+  margin-left: 0.8em;
+  font-weight: 600;
+  color: #ff5555;
+}
+
+.hint {
+  font-family: Open Sans;
+  font-size: 10px;
+  margin-left: 0.8em;
+  font-weight: 600;
+  color: #555555;
+}

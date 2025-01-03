@@ -1,0 +1,61 @@
+.popupdiv {
+  position: fixed;
+  width: 25em;
+  height: 12em;
+  padding: 22px 25px;
+  border-radius: 20px;
+  top: 12.25em;
+  left: 35%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(71, 71, 74, 1);
+}
+
+.headings {
+  font-family: Open Sans;
+  font-size: 27.33px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 7%;
+}
+
+.input {
+  padding: 1.2em;
+  background-color: rgba(31, 31, 35, 1);
+  color: rgb(134, 126, 126);
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-size: 14px;
+  border: none;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.popupbtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 17.33px;
+}
+
+.line {
+  font-size: 37.33px;
+  color: rgba(71, 71, 74, 1);
+}
+
+.popupbtns button {
+  padding: 1em 4em;
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-family: Open Sans;
+  font-size: 17.33px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.popupbtns button:hover {
+  padding: 0.9em 3.74em;
+  font-size: 18.2px;
+}

@@ -1,0 +1,285 @@
+.container {
+  height: 80%;
+  width: 100vw;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  background-color: #0a0a23;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 52px 80px;
+}
+
+.logo {
+  display: flex;
+  gap: 10%;
+  font-family: outfit;
+  align-items: center;
+}
+
+.logoname {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbtns {
+  display: flex;
+  gap: 15px;
+}
+
+.signIn {
+  background: none;
+  padding: 8px 14px;
+  border: 2px solid rgba(126, 166, 255, 1);
+  color: rgba(126, 166, 255, 1);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signIn:hover {
+  border: 2px solid #3366ff;
+  background-color: #3366ff;
+  color: #fff;
+}
+
+.createBot {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10em;
+}
+.createBot:hover {
+  background-color: transparent;
+  border: 2px solid rgba(126, 166, 255, 1);
+  padding: 6px 12.5px;
+  color: rgba(126, 166, 255, 1);
+}
+
+.hero {
+  background-color: #0a0a23;
+  display: flex;
+  margin-top: 7.5em;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 40px 20px 60px 20px;
+}
+
+.leftdesign {
+  position: absolute;
+  left: 2%;
+  top: 5em;
+  width: 19em;
+  animation: squareMotion1 10s linear infinite;
+}
+
+.rightdesign {
+  position: absolute;
+  left: 76%;
+  top: 6em;
+  width: 16em;
+  height: 17em;
+  animation: squareMotion2 10s linear infinite;
+}
+
+@keyframes squareMotion1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(15px, -10px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
+  75% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes squareMotion2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-15px, 10px);
+  }
+  50% {
+    transform: translate(10px, -10px);
+  }
+  75% {
+    transform: translate(0, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.heading {
+  font-family: Outfit;
+  font-size: 44px;
+  font-weight: 700;
+  width: 15em;
+  line-height: 45px;
+  text-align: center;
+  color: rgba(75, 131, 255, 1);
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  border-right: 2px solid rgba(75, 131, 255, 1);
+  animation: typing 3s steps(20, end), blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15em;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: rgba(75, 131, 255, 1);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+.description {
+  font-size: 14px;
+  margin: 20px 0;
+  width: 39em;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.ctaButton {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.flowDiagram {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: #0a0a23;
+}
+
+.leftbackgroup {
+  background-color: rgba(230, 114, 0, 1);
+  position: absolute;
+  height: 25em;
+  width: 15%;
+  border-radius: 90% 0% 0% 90%;
+  margin-left: 10.5%;
+  box-shadow: 0px 10px 30px rgba(230, 114, 0, 1);
+  filter: blur(20px);
+}
+
+.rightbackgroup {
+  background-color: rgba(0, 66, 218, 1);
+  position: absolute;
+  height: 25em;
+  width: 15%;
+  border-radius: 0% 90% 90% 0%;
+  margin-left: 75.5%;
+  box-shadow: 0px 10px 30px rgba(0, 66, 218, 1);
+  filter: blur(20px);
+}
+
+.flowImage {
+  width: 75%;
+  position: relative;
+  margin-left: 12.5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 20px 20px 20px;
+  color: rgba(255, 255, 255, 0.92);
+  background-color: #0a0a23;
+}
+
+.companyinfo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 20px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footerColumn p {
+  width: 8em;
+  line-height: 1.5em;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footerColumn h4 {
+  margin-bottom: 14px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footerColumn ul {
+  list-style: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  padding: 0;
+}
+
+.footerColumn li {
+  margin-bottom: 8px;
+}
+
+.footerColumn a {
+  color: #fff;
+  padding-right: 0.3em;
+  cursor: pointer;
+}
+
+.footerColumn a:hover {
+  color: rgb(28, 104, 107);
+}

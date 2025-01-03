@@ -1,0 +1,49 @@
+.popupdiv {
+  position: fixed;
+  width: 25em;
+  height: 11em;
+  padding: 22px 25px;
+  border-radius: 20px;
+  top: 12.7em;
+  left: 35%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(71, 71, 74, 1);
+}
+
+.headings {
+  font-family: Open Sans;
+  font-size: 27.33px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.popupbtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line {
+  font-size: 37.33px;
+  color: rgba(71, 71, 74, 1);
+}
+
+.popupbtns button {
+  padding: 1em 3em;
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.popupbtns button:hover {
+  padding: 0.5em 2.9em;
+  font-size: 19.5px;
+}
