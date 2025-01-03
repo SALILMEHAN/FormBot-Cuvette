@@ -85,7 +85,7 @@ function AddFolder({ Mode, setfolderpopup, selectedWorkspace, setfolmsg }) {
             style={{ color: Mode === "dark" ? "white" : "rgb(0, 0, 0)" }}
             onClick={() => setfolderpopup(false)}
           >
-            Cancle
+            Cancel
           </button>
         </div>
         <Toaster

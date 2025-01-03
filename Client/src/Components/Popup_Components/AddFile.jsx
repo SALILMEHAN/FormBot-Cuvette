@@ -79,7 +79,7 @@ function AddFile({
             style={{ color: Mode === "dark" ? "white" : "rgb(0, 0, 0)" }}
             onClick={() => setfilepopup(false)}
           >
-            Cancle
+            Cancel
           </button>
         </div>
         <Toaster

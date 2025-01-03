@@ -56,7 +56,7 @@ function DeleteFol({ Mode, setdelFolderpopup, delFolderid, setdelSermsg }) {
             style={{ color: Mode === "dark" ? "white" : "rgb(0, 0, 0)" }}
             onClick={() => setdelFolderpopup(false)}
           >
-            Cancle
+            Cancel
           </button>
         </div>
         <Toaster

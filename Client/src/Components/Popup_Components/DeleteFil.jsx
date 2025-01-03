@@ -67,7 +67,7 @@ function DeleteFil({
             style={{ color: Mode === "dark" ? "white" : "rgb(0, 0, 0)" }}
             onClick={() => setdelFilepopup(false)}
           >
-            Cancle
+            Cancel
           </button>
         </div>
         <Toaster
