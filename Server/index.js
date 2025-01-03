@@ -13,7 +13,7 @@ dotenv.config();
 // app.use(cors());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://form-bot-cuvette.vercel.app/"],
+    origin: ["http://localhost:5173", "https://form-bot-cuvette.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
